@@ -1,5 +1,7 @@
 package modelo;
 
+import java.util.Scanner;
+
 
 public abstract class User {
     private int ID;
@@ -56,6 +58,6 @@ public abstract class User {
         this.password = password;
     }
     
-    public abstract void showList();
+    public abstract void showList(Database database, Scanner scanner);
         
 }

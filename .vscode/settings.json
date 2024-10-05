@@ -1,0 +1,22 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Program Files\\MySQL\\mysql-connector-j-9.0.0\\mysql-connector-j-9.0.0.jar"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "carrentalsystem",
+            "username": "root",
+            "database": "carrentalsystem",
+            "password": "21598julioMySql"
+        }
+    ]
+}

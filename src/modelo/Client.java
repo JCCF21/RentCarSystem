@@ -1,4 +1,5 @@
 package modelo;
+import java.util.Scanner;
 
 
 public class Client extends User {
@@ -8,7 +9,7 @@ public class Client extends User {
     }
     
     @Override
-    public void showList(){
+    public void showList(Database database, Scanner scanner){
       System.out.println("\n1.Ver Vehiculos\t\t2. Rentar Vehiculo");
       System.out.println("3. Retornar Vehiculo\t\t4. Ver mis Rentas");
       System.out.println("5. Actualizar Mi Informacion");
